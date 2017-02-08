@@ -1,0 +1,113 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Christopher}{Mazzullo}
+% \title{Resumé title}                               % optional, remove / comment the line if not wanted
+% \address{9584 Burnt Oak Drive}{Fairfax Station, VA 22039}{}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone{(571)~263~4291}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[fixed]{+2~(345)~678~901}
+% \phone[fax]{+3~(456)~789~012}
+\email{chris.mazzullo@gmail.com}                   % optional, remove / comment the line if not wanted
+% \homepage{cmazzullo.github.com}                         % optional, remove / comment the line if not wanted
+% \social[linkedin]{chris.mazzullo}                        % optional, remove / comment the line if not wanted
+% \social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{cmazzullo.github.com}                              % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Objective}
+
+%% Scientific/Analysis/Quant
+
+%% \cvitem{}{Developer with 2 years of experience building software for
+%%   federal scientific agencies looking to leverage my programming and
+%%   analysis skills into an entry level Quantitative Analytics
+%%   position at Freddie Mac.}
+
+%% DevOps
+
+%% \cvitem{}{Developer with 2 years of experience building and deploying software for
+%%   federal agencies looking to leverage my programming skills in an
+%%   entry level DevOps position at BlackBoard.}
+
+
+%% Generic
+ \cvitem{} { Developer with 2 years of experience building and
+   deploying software for federal agencies looking to leverage
+   programming skills in an entry level position at Information Management Services, Inc.  }
+ 
+\section{Education}
+\cventry{May 2015}{\emph{BS} Physics, Minor Computer Science}{George Mason University}{Fairfax, VA}{}{}  % arguments 3 to 6 can be left empty
+
+\section{Experience}
+\cventry{Sept 2015--Nov 2016}{EOP Engineer}{US Naval Observatory}{Washington, DC}{}{
+\begin{itemize}
+\item Improved Fortran 95 codebases responsible for computing
+  Earth orientation parameters, the results of which are used in GPS systems.
+\item Overhauled and updated the public facing websites of the Earth
+  Orientation division at USNO.
+\item Automated processes using Python and Bash to generate data products regularly and
+  without intervention.
+\end{itemize}}
+
+\cventry{June 2014--Sep 2015}{Python Developer}{US Geological Survey}{Reston, VA}{}{
+\begin{itemize}
+\item Developed Python programs to parse large amounts of raw data from pressure sensors in the Atlantic.
+\item Applied Fourier analysis to implement algorithms that convert water pressure readings into statistical data about wave height and frequency.
+\end{itemize}}
+
+\cventry{May 2014--May 2015}{Research Assistant}{George Mason University}{Fairfax, VA}{}{
+\begin{itemize}
+\item Developed software in IDL to analyze the Hinode satellite's images with funding from the Undergraduate Research Scholars Program, an internal grant at Mason.
+\item Investigated the velocity of plasma in coronal loops to help discriminate between diferent models of coronal heating, and presented the research at the 2015 National Conference on Undergraduate Research.
+\end{itemize}}
+
+
+\cventry{Aug 2013--May 2014}{Teaching Assistant}{George Mason University}{Fairfax, VA}{}{
+\begin{itemize}
+\item Graded papers and assignments for a first year Computer Ethics class.
+\item Held regular office hours to tutor students struggling with the course.
+\end{itemize}}
+
+%% \cventry{Aug 2012--Jan 2013}{Sales Associate}{Sherwin-Williams}{Alexandria, VA}{}{
+%% \begin{itemize}
+%% \item Coordinated orders of paint with construction companies and homeowners.
+%% \item Organized and delivered orders to locations throughout Northern Virginia and Washington, D. C.
+%% \end{itemize}}
+
+%% \cventry{2011--2012}{Logistics Team Member}{Target}{Fairfax Square, VA}{}{
+%% \begin{itemize}
+%% \item Coordinated with a team to keep merchandise moving to the floor during the busy holiday season.
+%% \item Scheduled time effectively to distribute products to customers.
+%% \end{itemize}}
+
+\section{Skills}
+\cvlistitem{Proficient with Python, Java, C, Bash and Fortran.}
+\cvlistitem{Experienced with developing and deploying software on UNIX systems.}
+
+
+\end{document}
