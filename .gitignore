@@ -1,8 +1,12 @@
+## LaTex output
 *.pdf
 *.aux
 *.log
 *.out
-# emacs stuff
+*.dvi
+
+## emacs stuff
+
 *~
 .#*
 \#*#
