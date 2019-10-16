@@ -3,18 +3,17 @@
 % This is the definitive source code of my resume, all of the other
 % files in this folder are compiled from it.
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper,sans,colorlinks,urlcolor=blue]{moderncv}
 \moderncvstyle{banking} % style options: 'casual', 'classic', 'oldstyle', 'banking'
 \moderncvcolor{blue}
 \usepackage[scale=0.75]{geometry} % adjust the page margins
 
-
 % PERSONAL DATA
 
 \name{Christopher}{Mazzullo}
-\phone{(571)~263~4291}
+\phone{(202)~253~1258}
 \email{chris.mazzullo@gmail.com}
-\social[github]{cmazzullo.github.com}
+\social[github]{cmazzullo}
 
 
 % CONTENT
@@ -26,10 +25,10 @@
 
 \section{Objective}
 \cvitem{} {
-  NOTE : CHANGE ME
-  Developer with 2 years of experience building and deploying software
-  for federal agencies looking to leverage programming skills in an
-  entry level position at Information Management Services, Inc.
+  Developer with strong testing background and several years of
+  experience building and deploying software for federal agencies
+  looking to leverage skills in a position as a Test Engineer for the
+  National Weather Service.
 }
 
 
@@ -39,41 +38,43 @@
 
 \section{Experience}
 
-\cventry{May 2017--Present}{Programmer}{IMS, Inc.}{Calverton, MD}{}{
+\cventry{May 2017--Present}{Full Stack Developer}{IMS, Inc.}{Calverton, MD}{}{
   \begin{itemize}
-  \item Developed and maintained government websites such as
-    biolincc.nhlbi.gov and neurobiobank.nih.gov.
-  \item Implemented pages using a stack including JQuery, HTML, CSS,
-    Django, Elasticsearch, PostgreSQL and Apache.
-  \item Made new features from a requirements-gathering stage
-    through implementation to testing and releasing to production systems.
+  \item Developed and maintained websites such as
+    \href{biolincc.nhlbi.nih.gov}{biolincc.nhlbi.nih.gov} and
+    \href{neurobiobank.nih.gov}{neurobiobank.nih.gov} using a stack
+    including Git, JQuery, HTML, CSS, Django, Elasticsearch,
+    PostgreSQL and Apache.
+  \item Wrote and executed automated unit, integration and
+    functional tests to keep websites reliable.
+  \item Guided new features all the way from requirements-gathering
+    through implementation, testing and release.
   \end{itemize}
 }
 
 \cventry{Sept 2015--Nov 2016}{Programmer}{US Naval Observatory}{Washington, DC}{}{
   \begin{itemize}
-  \item Improved Fortran 95 codebases responsible for computing
+  \item Maintained and improved Fortran 95 codebases responsible for computing
     Earth orientation parameters, the results of which are used in Navy GPS systems.
-  \item Overhauled and updated the public facing websites of the Earth
-    Orientation division at USNO.
-  \item Automated processes using Python and Bash to generate data
-    products regularly and without intervention.
+  \item Updated the public facing websites of the Earth Orientation
+    division at USNO, and automated processes using Python and Bash to
+    generate its data products.
 \end{itemize}}
 
 \cventry{June 2014--Sep 2015}{Python Developer}{US Geological Survey}{Reston, VA}{}{
   \begin{itemize}
-  \item Developed Python programs to parse large amounts of raw data
-    from pressure sensors in the Atlantic.
-  \item Applied Fourier analysis and linear wave theory to implement
-    algorithms that convert water pressure readings into statistical
-    data about wave height and frequency.
+  \item Developed programs to read, clean, interpret and visualize large
+    NetCDF files of raw data from pressure sensors showing trends in wave
+    height and frequency on the Atlantic coast.
+  \item Wrote algorithms using Fourier analysis to convert pressure data to wave
+    height and frequency statistics.
 \end{itemize}}
 
 \cventry{May 2014--May 2015}{Research Assistant}{George Mason University}{Fairfax, VA}{}{
   \begin{itemize}
-  \item Developed software in IDL to analyze the Hinode satellite's
-    images with funding from the Undergraduate Research Scholars
-    Program, an internal grant at Mason.
+  \item Developed software in IDL to analyze and visualize solar data
+    from the Hinode satellite with funding from the Undergraduate
+    Research Scholars Program, an internal grant at Mason.
   \item Investigated the velocity of plasma in coronal loops to help
     discriminate between different models of coronal heating, and
     presented the research at the 2015 National Conference on
@@ -84,10 +85,10 @@
 \section{Skills}
 \cvlistitem{
   Have experience with several languages including Python, JavaScript, Java, C,
-  Bash, Fortran and Lisp.
+  Bash, and Lisp.
 }
 \cvlistitem{
-  Worked extensively on GNU/Linux systems developing and deploying
+  Worked extensively on Linux workstations developing and deploying
   software and websites.
 }
 
