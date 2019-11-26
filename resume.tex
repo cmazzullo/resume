@@ -8,12 +8,13 @@
 \moderncvcolor{blue}
 \usepackage[scale=0.75]{geometry} % adjust the page margins
 
+
 % PERSONAL DATA
 
 \name{Christopher}{Mazzullo}
 \phone{(202)~253~1258}
 \email{chris.mazzullo@gmail.com}
-\social[github]{cmazzullo}
+\homepage{github.com/cmazzullo}
 
 
 % CONTENT
@@ -30,20 +31,21 @@
   skills in a position as ...INSERT JOB HERE...
 }
 
-
-\section{Education}
-\cventry{May 2015}{\emph{BS} Physics, Minor Computer Science}{George Mason University}{Fairfax, VA}{}{}
-
-
 \section{Experience}
 
-\cventry{May 2017--Present}{Full Stack Developer}{IMS, Inc.}{Calverton, MD}{}{
+\cventry{May 2017--Present}{Web Developer}{IMS, Inc.}{Calverton, MD}{}{
   \begin{itemize}
-  \item Developed and maintained websites including
-    \href{biolincc.nhlbi.nih.gov}{biolincc.nhlbi.nih.gov} and
-    \href{neurobiobank.nih.gov}{neurobiobank.nih.gov} using a stack
-    including Git, JQuery, HTML, CSS, Django, Elasticsearch,
-    PostgreSQL and Apache.
+  \item Developed and maintained websites serving healthcare datasets
+    to researchers including
+    % Wrap links in \mbox to prevent line breaks inside them
+    \mbox{\href{biolincc.nhlbi.nih.gov}{biolincc.nhlbi.nih.gov}},
+    \mbox{\href{repository.niddk.nih.gov}{repository.niddk.nih.gov}}
+    and \mbox{\href{neurobiobank.nih.gov}{neurobiobank.nih.gov}} using
+    a stack based on Django, Elasticsearch, and PostgreSQL.
+  \item Led the conversion of
+    \mbox{\href{biolincc.nhlbi.nih.gov}{biolincc.nhlbi.nih.gov}} and
+    \mbox{\href{repository.niddk.nih.gov}{repository.niddk.nih.gov}}
+    from Python 2 to Python 3.
   \item Wrote and executed automated unit, integration and
     functional tests to keep websites reliable.
   \item Guided new features all the way from requirements-gathering
@@ -62,14 +64,14 @@
 
 \cventry{June 2014--Sep 2015}{Python Developer}{US Geological Survey}{Reston, VA}{}{
   \begin{itemize}
-  \item Developed programs to read, clean, interpret and visualize large
-    NetCDF files of raw data from pressure sensors showing trends in wave
-    height and frequency on the Atlantic coast.
-  \item Wrote algorithms using Fourier analysis to convert pressure data to wave
+  \item Designed algorithms using Fourier analysis to convert pressure data to wave
+  \item Developed programs to clean, interpret and visualize large
+    NetCDF files of raw data from pressure sensors showing trends in
+    wave height and frequency on the Atlantic coast.
     height and frequency statistics.
 \end{itemize}}
 
-\cventry{May 2014--May 2015}{Research Assistant}{George Mason University}{Fairfax, VA}{}{
+\cventry{May 2014--May 2015}{Undergraduate Researcher}{George Mason University}{Fairfax, VA}{}{
   \begin{itemize}
   \item Developed software in IDL to analyze and visualize solar data
     from the Hinode satellite with funding from the Undergraduate
@@ -80,19 +82,7 @@
     Undergraduate Research.
 \end{itemize}}
 
-
-\section{Skills}
-\cvlistitem{
-  Have experience with several languages including Python, JavaScript, Java, C,
-  Bash, and Lisp.
-}
-\cvlistitem{
-  Worked extensively with the Linux OS developing and deploying
-  software and websites.
-}
-\cvlistitem{
-  Experienced with the Git version control system.
-}
-
+\section{Education}
+\cventry{May 2015}{\emph{BS} Physics, Minor Computer Science}{George Mason University}{Fairfax, VA}{}{}
 
 \end{document}
